@@ -1,0 +1,239 @@
+body {
+    background-image: url(../images/cream_pixels.png);
+    color: #000000;
+    margin: 0;
+    font-family: "Verdana";
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 8px;
+}
+
+h4 {
+    color: white;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #606060;
+}
+
+/* selected link */
+#content_link:active {
+    color: #000000;
+}
+
+/* unvisited link */
+#content_link:link {
+    color: #000000;
+}
+
+/* visited link */
+#content_link:visited {
+    color: #000000;
+}
+
+/* mouse over link */
+#content_link:hover {
+    color: #606060;
+}
+
+/* selected link */
+#content_link:active {
+    color: #000000;
+}
+
+.nav_top {
+    width: 100%;
+    background-image: url(../images/black_background.png);
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: fixed;
+}
+
+.nav_top > .nav_top_inside {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+
+#nav_external {
+    float: left;
+    width: 148px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+#nav_internal {
+    float: left;
+    width: 148px;
+}
+
+#nav_external_right {
+    float: right;
+    width: 148px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    color: white;
+}
+
+#break_under_nav {
+    height: 50px;
+}
+
+.content {
+    width: 1024px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    background: #F1F1F1;
+    border: 1px solid #000000;
+    /*background-image: url(../images/white_background.png);*/
+}
+
+input[type=text],
+input[type=password] {
+    width: 300px;
+    background-color: white;
+    color: #2e2e2e;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+input[type=submit] {
+    width: 300px;
+    background-color: #36b03c;
+    color: white;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.button {
+    width: 300px;
+    background-color: #000000;
+    color: white;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    letter-spacing: 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #000000;
+}
+
+.register {
+    width: 300px;
+    background-color: #321db0;
+    color: white;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 4px;
+    color: white;
+    background-image: url(../images/black_background.png)
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.succed {
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+grid
+*/
+#grid {
+    margin: 20px auto;
+    display: table;
+    width: 410px;
+    height: 410px;
+    padding: 0px;
+    border-collapse: collapse;
+    background: #129104;
+    border: 1px solid #0a5e01;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border-spacing: 5px 5px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000000;
+    padding: 4px;
+}
+
+.disc {
+    width: 36px;
+    height: 36px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: 2px;
+}
